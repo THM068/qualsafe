@@ -1,0 +1,1 @@
+app.course.url="http://134.213.151.116/getCourses.php?action=getUnpaid"

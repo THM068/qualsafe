@@ -23,13 +23,8 @@
             var template = Handlebars.compile(source);
             $("#courseBody").append(template(courseInfo));
 
-            registerControls();
-        },
-
-        registerControls: function () {
             $('.show-hide-metadata').click(function () {
-                alert("hello world");
-                console.info($(this).closest('.studentMetaData'));
+                $(this).next('table').toggle();
             })
         }
 

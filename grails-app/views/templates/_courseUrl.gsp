@@ -8,14 +8,18 @@
         <tr>
             <td >
                 <a href="#" class="show-hide-metadata">Show</a>
-                <table class="studentMetaData" >
+
+                <table class="studentMetaData">
                     <th>Student ID</th>
                     <th>Name</th>
+                    {{#students}}
                     <tr>
-                        <td>123</td>
-                        <td>Thando mafela</td>
+                        <td>{{id}}</td>
+                        <td>{{name}}</td>
                     </tr>
+                    {{/students}}
                 </table>
+
             </td>
             <td>{{id}} </td>
             <td>{{start}}</td>

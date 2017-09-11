@@ -14,6 +14,7 @@
             });
         },
 
+
         renderTable: function (data) {
             var courseInfo = {
                 cdata: data.courses
